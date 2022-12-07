@@ -3,6 +3,8 @@ package com.example.championship
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.GridLayout
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,5 +17,6 @@ class MainActivity : AppCompatActivity() {
             "abc",
         )
         recycler.adapter = RecyclerAdapter(list)
+        recycler.layoutManager = LinearLayoutManager(this)
     }
 }

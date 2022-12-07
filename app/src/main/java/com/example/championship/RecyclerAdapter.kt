@@ -22,7 +22,7 @@ class RecyclerAdapter(val list : List<String>) : RecyclerView.Adapter<RecyclerVi
     }
 
     override fun getItemCount(): Int {
-        return 0
+        return list.size
     }
 
 
