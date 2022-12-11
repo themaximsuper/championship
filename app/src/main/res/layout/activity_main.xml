@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity.MainActivity">
 
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -15,18 +15,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
+        &lt;!&ndash;<TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="TextView" />&ndash;&gt;
 
-        <androidx.recyclerview.widget.RecyclerView
+        &lt;!&ndash;<androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:itemCount="10"
-            tools:listitem="@layout/item" />
-    </LinearLayout>
+            tools:listitem="@layout/item" />&ndash;&gt;
+    </LinearLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

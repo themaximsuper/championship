@@ -1,4 +1,4 @@
-package com.example.championship
+package com.example.championship.MainActivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,13 +10,14 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        /*setContentView(R.layout.activity_main)
         val list = listOf(
             "abc",
             "abc",
             "abc",
         )
         recycler.adapter = RecyclerAdapter(list)
-        recycler.layoutManager = LinearLayoutManager(this)
+        recycler.layoutManager = LinearLayoutManager(this)*/
+
     }
 }
